@@ -1,0 +1,14 @@
+ls Despliega el contenido
+cd .. Retrocede una carpeta
+cd <nombe de la carpeta>
+pwd identifica donde estas
+clear limpia pantalla
+rm <nombre archivo>  borrar archivo
+mv <nombre archivo original> <Nombre archivo nuevo> renombra
+git init crae el repositorio .git
+ls -a  muestra el .git creado
+git status muestra el estado de los archivos creados
+git add moverlo a commit
+git commit -m "Comiit Inicial"   moverlo al 
+git rm <nombre archivo>  borrar archivo y no ejecutas el git add
+git restore --staged archivo2.txt Recupera el archivo borrado del repositorio staged. Luego para recuperarlo por completo git restore archivo2.txt
